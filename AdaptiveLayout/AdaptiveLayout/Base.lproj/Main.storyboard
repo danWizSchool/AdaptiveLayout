@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rdn-tD-FNP">
-    <device id="ipad9_7" orientation="landscape" layout="fullscreen" appearance="light"/>
+    <device id="retina3_5" orientation="landscape" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -17,17 +17,17 @@
             <objects>
                 <viewController id="BYZ-38-t0r" userLabel="Complete" customClass="ViewController" customModule="AdaptiveLayout" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wizLiveDefault" translatesAutoresizingMaskIntoConstraints="NO" id="Jsf-Qf-Zpg">
-                                <rect key="frame" x="294" y="20" width="436" height="274"/>
+                                <rect key="frame" x="10" y="23" width="216" height="274"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="07d-A3-h3b" userLabel="TextContainer">
-                                <rect key="frame" x="0.0" y="314" width="1024" height="454"/>
+                                <rect key="frame" x="240" y="0.0" width="240" height="320"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WizSchool" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="RuU-Yd-w2y">
-                                        <rect key="frame" x="0.0" y="16.5" width="1024" height="179.5"/>
+                                        <rect key="frame" x="0.0" y="10" width="240" height="139"/>
                                         <fontDescription key="fontDescription" type="system" weight="thin" pointSize="150"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -36,7 +36,7 @@
                                         </variation>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xwq-LD-gge" userLabel="Center View">
-                                        <rect key="frame" x="0.0" y="226" width="1024" height="2"/>
+                                        <rect key="frame" x="0.0" y="159" width="240" height="2"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="128" id="wMA-Rt-RPh">
@@ -51,7 +51,7 @@
                                         </variation>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="28C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="HLZ-0x-AB8">
-                                        <rect key="frame" x="0.0" y="228" width="1024" height="226"/>
+                                        <rect key="frame" x="0.0" y="161" width="240" height="149"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="lessThanOrEqual" constant="264.5" id="GuE-Mu-vLG"/>
                                         </constraints>
@@ -180,21 +180,21 @@
             <objects>
                 <viewController id="rdn-tD-FNP" customClass="MainViewController" customModule="AdaptiveLayout" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="H1Q-H4-Ac1">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ubx-qg-dvA" userLabel="topHolder">
-                                <rect key="frame" x="64" y="64" width="896" height="40"/>
+                                <rect key="frame" x="64" y="64" width="352" height="40"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="0FB-tm-V7I">
-                                        <rect key="frame" x="6" y="0.0" width="178" height="24"/>
+                                        <rect key="frame" x="6" y="0.0" width="80" height="80"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleAspectFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5uT-AI-QOr" userLabel="login btn">
-                                        <rect key="frame" x="781" y="0.0" width="109" height="40"/>
+                                        <rect key="frame" x="266" y="0.0" width="80" height="80"/>
                                         <state key="normal" image="login"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2vF-wM-PjW">
-                                        <rect key="frame" x="641" y="0.0" width="120" height="40"/>
+                                        <rect key="frame" x="126" y="0.0" width="120" height="80"/>
                                         <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="아직 계정이 없나요?"/>
                                         <variation key="heightClass=compact" hidden="YES"/>
@@ -255,13 +255,13 @@
                                 </variation>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r5m-Nv-Jg9" userLabel="bottomHolder">
-                                <rect key="frame" x="64" y="140" width="896" height="572"/>
+                                <rect key="frame" x="64" y="104" width="352" height="216"/>
                                 <subviews>
                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ifg-6N-jN9" userLabel="1">
-                                        <rect key="frame" x="0.0" y="0.0" width="448" height="286"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="352" height="116"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NoZ-Js-dPW" userLabel="Shadow View">
-                                                <rect key="frame" x="6" y="6" width="430" height="268"/>
+                                                <rect key="frame" x="6" y="6" width="334" height="98"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -282,7 +282,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <button opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6AW-hM-3Kr" userLabel="Live">
-                                                <rect key="frame" x="6" y="6" width="430" height="268"/>
+                                                <rect key="frame" x="6" y="6" width="334" height="98"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" image="wizLiveDefault"/>
                                                 <state key="selected" image="wizlive-1"/>
@@ -313,10 +313,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1GU-Cu-ATX" userLabel="2">
-                                        <rect key="frame" x="448" y="0.0" width="224" height="286"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="352" height="216"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zvy-XU-nsC" userLabel="Shadow View">
-                                                <rect key="frame" x="12" y="6" width="200" height="268"/>
+                                                <rect key="frame" x="12" y="6" width="328" height="198"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -337,7 +337,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <button opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HSQ-rT-c26">
-                                                <rect key="frame" x="12" y="6" width="200" height="268"/>
+                                                <rect key="frame" x="12" y="6" width="328" height="198"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" image="wizLabProDefault"/>
                                                 <state key="highlighted" image="wizLabProSelected" backgroundImage="mainColor"/>
@@ -368,10 +368,10 @@
                                         <variation key="heightClass=compact" hidden="YES"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-6A-uXm" userLabel="3">
-                                        <rect key="frame" x="672" y="0.0" width="224" height="286"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="352" height="216"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="17S-Mg-E7k" userLabel="Shadow View">
-                                                <rect key="frame" x="12" y="6" width="206" height="268"/>
+                                                <rect key="frame" x="12" y="6" width="334" height="198"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -392,7 +392,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <button opaque="NO" clipsSubviews="YES" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qBj-2h-0OG">
-                                                <rect key="frame" x="12" y="6" width="206" height="268"/>
+                                                <rect key="frame" x="12" y="6" width="334" height="198"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" image="wizLabJrDefault"/>
                                                 <state key="highlighted" image="wizLabJrSelected" backgroundImage="mainColor"/>
@@ -424,10 +424,10 @@
                                         <variation key="heightClass=compact" hidden="YES"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QPs-M5-kB9" userLabel="4">
-                                        <rect key="frame" x="0.0" y="286" width="224" height="286"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="352" height="216"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tne-Cs-t0L" userLabel="Shadow View">
-                                                <rect key="frame" x="6" y="12" width="206" height="268"/>
+                                                <rect key="frame" x="6" y="12" width="334" height="198"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -448,7 +448,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <button opaque="NO" clipsSubviews="YES" tag="4" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fag-2L-IRo">
-                                                <rect key="frame" x="6" y="12" width="206" height="268"/>
+                                                <rect key="frame" x="6" y="12" width="334" height="198"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" image="wizappDefault"/>
                                                 <state key="highlighted" image="wizAppSelected" backgroundImage="mainColor"/>
@@ -479,10 +479,10 @@
                                         <variation key="heightClass=compact" hidden="YES"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eWH-38-5a1" userLabel="5">
-                                        <rect key="frame" x="224" y="286" width="224" height="286"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="352" height="216"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rbJ-iH-6EW" userLabel="Shadow View">
-                                                <rect key="frame" x="12" y="12" width="200" height="268"/>
+                                                <rect key="frame" x="12" y="12" width="328" height="198"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -503,7 +503,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <button opaque="NO" clipsSubviews="YES" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AXe-mu-j1w">
-                                                <rect key="frame" x="12" y="12" width="200" height="268"/>
+                                                <rect key="frame" x="12" y="12" width="328" height="198"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" image="wizclassDefault"/>
                                                 <state key="highlighted" image="wizClassSelected" backgroundImage="mainColor"/>
@@ -534,10 +534,10 @@
                                         <variation key="heightClass=compact" hidden="YES"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hvi-ZA-NUN" userLabel="6">
-                                        <rect key="frame" x="448" y="286" width="224" height="286"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="352" height="216"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="68S-4L-6b5" userLabel="Shadow View">
-                                                <rect key="frame" x="12" y="12" width="200" height="268"/>
+                                                <rect key="frame" x="12" y="12" width="328" height="198"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -558,7 +558,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <button opaque="NO" clipsSubviews="YES" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rvw-QR-snq">
-                                                <rect key="frame" x="12" y="12" width="200" height="268"/>
+                                                <rect key="frame" x="12" y="12" width="328" height="198"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" image="communityDefault"/>
                                                 <state key="highlighted" image="communitySelected" backgroundImage="mainColor"/>
@@ -589,10 +589,10 @@
                                         <variation key="heightClass=compact" hidden="YES"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6qC-pF-Lgo" userLabel="7">
-                                        <rect key="frame" x="672" y="286" width="224" height="286"/>
+                                        <rect key="frame" x="0.0" y="116" width="352" height="100"/>
                                         <subviews>
                                             <button opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="7" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8zy-lN-HeC">
-                                                <rect key="frame" x="12" y="12" width="206" height="268"/>
+                                                <rect key="frame" x="6" y="12" width="340" height="82"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" backgroundImage="rectangle">
@@ -600,7 +600,7 @@
                                                 </state>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Comming Soon" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kUX-u8-Z0I">
-                                                <rect key="frame" x="48" y="120" width="134" height="24"/>
+                                                <rect key="frame" x="109" y="41" width="134" height="24"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="20"/>
                                                 <color key="textColor" red="0.13725490196078433" green="0.13333333333333333" blue="0.13333333333333333" alpha="0.10000000000000001" colorSpace="custom" customColorSpace="displayP3"/>
@@ -610,7 +610,7 @@
                                                 </variation>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hae-D7-PSV" userLabel="위즈스쿨의 새로운  서비스를 기대해주세요!">
-                                                <rect key="frame" x="60" y="148" width="110.5" height="28"/>
+                                                <rect key="frame" x="98" y="33" width="156.5" height="40"/>
                                                 <string key="text">위즈스쿨의 새로운 
 서비스를 기대해주세요!</string>
                                                 <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="12"/>
@@ -622,7 +622,7 @@
                                                 </variation>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rap-ka-Phb" userLabel="centerView">
-                                                <rect key="frame" x="12" y="144" width="206" height="4"/>
+                                                <rect key="frame" x="6" y="51" width="340" height="4"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="4" id="3wd-0Z-0j0"/>
@@ -655,8 +655,8 @@
                                             <mask key="constraints">
                                                 <exclude reference="o28-lq-LfW"/>
                                                 <exclude reference="Q35-I6-RjY"/>
-                                                <exclude reference="O6F-TQ-hQa"/>
                                                 <exclude reference="g4q-Db-lYJ"/>
+                                                <exclude reference="O6F-TQ-hQa"/>
                                             </mask>
                                         </variation>
                                         <variation key="heightClass=compact">
@@ -664,10 +664,10 @@
                                                 <include reference="o28-lq-LfW"/>
                                                 <include reference="Q35-I6-RjY"/>
                                                 <exclude reference="Wmi-Ni-nka"/>
+                                                <include reference="g4q-Db-lYJ"/>
                                                 <exclude reference="Y0l-fP-9NI"/>
                                                 <include reference="O6F-TQ-hQa"/>
                                                 <exclude reference="VyK-aW-7Aq"/>
-                                                <include reference="g4q-Db-lYJ"/>
                                             </mask>
                                         </variation>
                                     </view>
@@ -764,23 +764,23 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="YNP-xQ-AZC"/>
-                                        <exclude reference="ZP0-Bf-HzY"/>
-                                        <exclude reference="xqk-cS-zps"/>
-                                        <exclude reference="JNz-d2-Kp4"/>
-                                        <exclude reference="PkT-9Q-ygJ"/>
+                                        <exclude reference="8SX-VD-hbq"/>
+                                        <exclude reference="sbx-bu-OEH"/>
                                         <exclude reference="Wvu-dU-fQD"/>
                                         <exclude reference="qzg-5l-PEW"/>
                                         <exclude reference="bdR-dS-AJT"/>
                                         <exclude reference="ipf-si-Vx3"/>
                                         <exclude reference="jUJ-Wb-FJS"/>
                                         <exclude reference="k0R-d0-fNu"/>
+                                        <exclude reference="YNP-xQ-AZC"/>
+                                        <exclude reference="ZP0-Bf-HzY"/>
+                                        <exclude reference="xqk-cS-zps"/>
                                         <exclude reference="7ja-ik-CSK"/>
                                         <exclude reference="AHV-BW-f6Q"/>
                                         <exclude reference="Ikp-tY-wMa"/>
                                         <exclude reference="Ybr-cV-AeH"/>
-                                        <exclude reference="8SX-VD-hbq"/>
-                                        <exclude reference="sbx-bu-OEH"/>
+                                        <exclude reference="JNz-d2-Kp4"/>
+                                        <exclude reference="PkT-9Q-ygJ"/>
                                         <exclude reference="J6u-rv-6Zd"/>
                                         <exclude reference="a6e-wB-Jm1"/>
                                         <exclude reference="gRD-Nm-LSZ"/>
@@ -789,17 +789,10 @@
                                 </variation>
                                 <variation key="heightClass=compact">
                                     <mask key="constraints">
-                                        <exclude reference="KJM-MI-zUz"/>
-                                        <exclude reference="U8t-tn-d42"/>
-                                        <include reference="YNP-xQ-AZC"/>
-                                        <include reference="ZP0-Bf-HzY"/>
-                                        <exclude reference="dPj-rA-1SQ"/>
-                                        <include reference="xqk-cS-zps"/>
-                                        <exclude reference="Axu-Gg-zw1"/>
-                                        <include reference="JNz-d2-Kp4"/>
-                                        <include reference="PkT-9Q-ygJ"/>
-                                        <exclude reference="QJd-hz-5dI"/>
-                                        <exclude reference="rTK-bg-xFL"/>
+                                        <include reference="8SX-VD-hbq"/>
+                                        <exclude reference="ai6-YT-Uu2"/>
+                                        <exclude reference="eiV-dL-Eop"/>
+                                        <include reference="sbx-bu-OEH"/>
                                         <exclude reference="Tyb-w4-I24"/>
                                         <include reference="Wvu-dU-fQD"/>
                                         <exclude reference="qJE-xc-Dpr"/>
@@ -813,6 +806,12 @@
                                         <include reference="k0R-d0-fNu"/>
                                         <exclude reference="tO3-et-0ow"/>
                                         <exclude reference="yht-6c-Vfn"/>
+                                        <exclude reference="KJM-MI-zUz"/>
+                                        <exclude reference="U8t-tn-d42"/>
+                                        <include reference="YNP-xQ-AZC"/>
+                                        <include reference="ZP0-Bf-HzY"/>
+                                        <exclude reference="dPj-rA-1SQ"/>
+                                        <include reference="xqk-cS-zps"/>
                                         <include reference="7ja-ik-CSK"/>
                                         <include reference="AHV-BW-f6Q"/>
                                         <exclude reference="Bry-qI-Xb5"/>
@@ -821,10 +820,11 @@
                                         <exclude reference="PMN-Np-cdZ"/>
                                         <include reference="Ybr-cV-AeH"/>
                                         <exclude reference="w8G-jt-biW"/>
-                                        <include reference="8SX-VD-hbq"/>
-                                        <exclude reference="ai6-YT-Uu2"/>
-                                        <exclude reference="eiV-dL-Eop"/>
-                                        <include reference="sbx-bu-OEH"/>
+                                        <exclude reference="Axu-Gg-zw1"/>
+                                        <include reference="JNz-d2-Kp4"/>
+                                        <include reference="PkT-9Q-ygJ"/>
+                                        <exclude reference="QJd-hz-5dI"/>
+                                        <exclude reference="rTK-bg-xFL"/>
                                         <exclude reference="7Ok-6C-yLP"/>
                                         <include reference="J6u-rv-6Zd"/>
                                         <include reference="a6e-wB-Jm1"/>
@@ -873,14 +873,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lpr-lP-zuR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-299" y="-485"/>
+            <point key="canvasLocation" x="122" y="-521"/>
         </scene>
     </scenes>
     <resources>
         <image name="communityDefault" width="206" height="274"/>
         <image name="communitySelected" width="206" height="274"/>
-        <image name="login" width="109" height="40"/>
-        <image name="logo" width="178" height="24"/>
+        <image name="login" width="40" height="40"/>
+        <image name="logo" width="40" height="40"/>
         <image name="mainColor" width="16" height="16"/>
         <image name="rectangle" width="208" height="276"/>
         <image name="wizAppSelected" width="206" height="274"/>

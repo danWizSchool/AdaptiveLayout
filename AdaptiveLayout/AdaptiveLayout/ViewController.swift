@@ -14,6 +14,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+        super.traitCollectionDidChange(previousTraitCollection)
+        print("current", UITraitCollection.current.horizontalSizeClass)
+        print("---------------traitCollectionDidChange is called  -----------------")
+        print("horizontalSizeClass :", previousTraitCollection?.horizontalSizeClass)
+        print("verticalSizeClass :", previousTraitCollection?.verticalSizeClass)
+    }
+
 
 
 }
